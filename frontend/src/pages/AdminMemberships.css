@@ -1,0 +1,181 @@
+.admin-memberships {
+    padding: 40px;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    color: #111827;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+.admin-memberships-header {
+    margin-bottom: 30px;
+}
+
+.admin-memberships-header h1 {
+    margin: 0 0 8px 0;
+    color: #111827;
+    font-size: 30px;
+}
+
+.admin-memberships-header p {
+    margin: 0;
+    color: #666;
+    font-size: 15px;
+}
+
+/* Table Container */
+
+.membership-table-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+
+/* Table */
+
+.membership-table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.membership-table-container th {
+    padding: 15px;
+    text-align: left;
+    background-color: #f3f4f6;
+    color: #111827;
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
+}
+
+.membership-table-container td {
+    padding: 15px;
+    text-align: left;
+    color: #111827;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.membership-table-container tbody tr:hover {
+    background-color: #f9fafb;
+}
+
+.membership-table-container tbody tr:hover td {
+    background-color: #f9fafb;
+}
+
+/* Gold Membership */
+
+.gold-membership {
+    font-weight: bold;
+    color: #b77900;
+}
+
+/* Manage Button */
+
+.membership-btn {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #2563eb;
+    color: white;
+    font-size: 14px;
+}
+
+.membership-btn:hover {
+    background-color: #1d4ed8;
+}
+
+/* Edit Membership */
+
+.membership-edit {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.membership-edit select {
+    padding: 7px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    color: #111827;
+    cursor: pointer;
+}
+
+/* Save Button */
+
+.save-membership-btn {
+    padding: 7px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #16a34a;
+    color: white;
+}
+
+.save-membership-btn:hover {
+    background-color: #15803d;
+}
+
+/* Cancel Button */
+
+.cancel-membership-btn {
+    padding: 7px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #6b7280;
+    color: white;
+}
+
+.cancel-membership-btn:hover {
+    background-color: #4b5563;
+}
+
+/* Tablet */
+
+@media (max-width: 900px) {
+
+    .admin-memberships {
+        padding: 30px 20px;
+    }
+
+    .membership-table-container {
+        padding: 15px;
+    }
+
+    .membership-table-container th,
+    .membership-table-container td {
+        padding: 12px;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 650px) {
+
+    .admin-memberships {
+        padding: 25px 15px;
+    }
+
+    .admin-memberships-header h1 {
+        font-size: 24px;
+    }
+
+    .membership-table-container {
+        overflow-x: auto;
+    }
+
+    .membership-table-container table {
+        min-width: 750px;
+    }
+
+    .membership-edit {
+        flex-wrap: wrap;
+    }
+}

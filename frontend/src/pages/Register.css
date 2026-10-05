@@ -1,0 +1,15 @@
+/* =========================
+   REGISTER CONTAINER
+========================= */
+
+.register-container {
+  max-width: 470px;
+}
+
+
+/* Slightly smaller spacing for
+   registration form */
+
+.register-container .form-group {
+  margin-bottom: 17px;
+}

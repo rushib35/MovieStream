@@ -1,0 +1,33 @@
+# React
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+
+# Spring Boot
+backend/target/
+backend/.env
+
+# Eclipse
+backend/.classpath
+backend/.project
+backend/.settings/
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Windows
+desktop.ini
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+.env.*
+*.env
